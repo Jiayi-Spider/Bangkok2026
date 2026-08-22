@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3eee6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#10100f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BKK 2026">
+  <title>2026 Bangkok Trip Planner</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="返回首页">BKK <span>2026</span></a>
+    <nav aria-label="页面导航">
+      <a class="active" href="#home">首页</a><a href="#hotels">酒店</a><a href="#schedule">行程</a><a href="#food">美食</a><a href="#tips">贴士</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-photo" role="img" aria-label="曼谷郑王庙与河景占位图片"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">MY PRIVATE JOURNEY · 5 NIGHTS</p>
+        <h1>2026 Bangkok<br>Thailand Trip</h1>
+        <p class="subtitle">10/03 — 10/08&nbsp;&nbsp; 上海 → 曼谷</p>
+        <div class="hero-actions"><a class="primary" href="#schedule">查看行程</a><button id="shareBtn" type="button">分享计划</button></div>
+      </div>
+    </section>
+
+    <section class="section overview" aria-label="旅行概览">
+      <div class="section-heading"><div><p class="eyebrow">AT A GLANCE</p><h2>旅行概览</h2></div><p>六天五晚 · 三家酒店 · 一座热烈的城</p></div>
+      <div class="stat-grid">
+        <article class="stat featured"><span>✈︎ 航班</span><strong>PVG 07:30</strong><i>→ BKK 11:05</i><small>10月3日 · 抵达曼谷</small></article>
+        <article class="stat"><span>⌂ 住宿</span><strong>3 家酒店</strong><small>从城市中心到套房体验</small></article>
+        <article class="stat"><span>✦ 特色</span><strong>文化 · 美食</strong><small>河景 · 商圈 · 慢旅行</small></article>
+      </div>
+    </section>
+
+    <section class="section" id="hotels">
+      <div class="section-heading"><div><p class="eyebrow">THREE STAYS</p><h2>酒店</h2></div><p>每一段住宿，都是旅程的一部分</p></div>
+      <div class="hotel-list">
+        <article class="hotel-card"><div class="hotel-img pullman"><span>图片占位 · 可替换</span></div><div class="hotel-info"><p class="date">10/03 — 10/05 · 2晚</p><h3>Pullman Bangkok<br>King Power</h3><p class="address">8/2 Rang Nam Alley, Thanon Phaya Thai</p><div class="chips"><span>胜利纪念碑</span><span>King Power</span><span>机场快线便利</span></div><p class="reason">第一站选择交通便利且闹中取静的酒店，让落地后的节奏轻松一些。</p><div class="map-actions"><a class="primary-map" href="https://maps.apple.com/?q=Pullman+Bangkok+King+Power" target="_blank" rel="noopener">Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&query=Pullman+Bangkok+King+Power" target="_blank" rel="noopener">Google Maps</a></div><div class="nearby"><p>🏪 <b>附近的 7-Eleven</b></p><strong>7-Eleven · Rang Nam Road</strong><span>约150m · 步行约2–3分钟</span><div class="nearby-actions"><a class="apple-walk" href="https://maps.apple.com/?q=7-Eleven+near+Pullman+Bangkok+King+Power" target="_blank" rel="noopener">Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&amp;query=7-Eleven+near+Pullman+Bangkok+King+Power" target="_blank" rel="noopener">Google Maps</a></div></div></div></article>
+        <article class="hotel-card reverse"><div class="hotel-img renaissance"><span>图片占位 · 可替换</span></div><div class="hotel-info"><p class="date">10/05 — 10/07 · 2晚</p><h3>Renaissance Bangkok<br>Ratchaprasong</h3><p class="address">518/8 Ploenchit Road · CentralWorld 附近</p><div class="benefit"><b>Marriott 高卡礼遇</b><span>早餐 · 酒廊权益 · 延迟退房 16:00</span></div><div class="chips"><span>CentralWorld</span><span>四面佛</span><span>BTS Chit Lom</span></div><div class="map-actions"><a class="primary-map" href="https://maps.apple.com/?q=Renaissance+Bangkok+Ratchaprasong" target="_blank" rel="noopener">Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&query=Renaissance+Bangkok+Ratchaprasong+Hotel" target="_blank" rel="noopener">Google Maps</a></div><div class="nearby"><p>🏪 <b>附近的 7-Eleven</b></p><strong>酒店附近 7-Eleven</strong><span>约200m · 步行时间以地图为准</span><div class="nearby-actions"><a class="apple-walk" href="https://maps.apple.com/?q=7-Eleven+near+Renaissance+Bangkok+Ratchaprasong" target="_blank" rel="noopener">Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&amp;query=7-Eleven+near+Renaissance+Bangkok+Ratchaprasong" target="_blank" rel="noopener">Google Maps</a></div></div></div></article>
+        <article class="hotel-card"><div class="hotel-img vie"><span>图片占位 · 可替换</span></div><div class="hotel-info"><p class="date">10/07 — 10/08 · 1晚</p><h3>VIE Hotel Bangkok<br>MGallery</h3><p class="address">117/39-40 Phaya Thai Road · Ratchathewi</p><div class="benefit"><b>豪华套房体验</b><span>用宽敞空间、泳池与从容早餐，为最后一晚留出放松时间。</span></div><div class="chips"><span>套房</span><span>近 Siam</span><span>最后一晚放松</span></div><div class="map-actions"><a class="primary-map" href="https://maps.apple.com/?q=VIE+Hotel+Bangkok+MGallery" target="_blank" rel="noopener">Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&query=VIE+Hotel+Bangkok+MGallery" target="_blank" rel="noopener">Google Maps</a></div><div class="nearby"><p>🏪 <b>附近的 7-Eleven</b></p><strong>酒店附近 7-Eleven</strong><span>距离与步行时间以地图实时结果为准</span><div class="nearby-actions"><a class="apple-walk" href="https://maps.apple.com/?q=7-Eleven+near+VIE+Hotel+Bangkok" target="_blank" rel="noopener">Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&amp;query=7-Eleven+near+VIE+Hotel+Bangkok" target="_blank" rel="noopener">Google Maps</a></div></div></div></article>
+      </div>
+    </section>
+
+    <section class="section schedule-section" id="schedule">
+      <div class="section-heading"><div><p class="eyebrow">DAY BY DAY</p><h2>每日行程</h2></div><p><span id="progressText">0 / 6</span> 天已完成</p></div>
+      <div class="progress"><span id="progressBar"></span></div>
+      <div id="days" class="days"></div>
+    </section>
+
+    <section class="section" id="food">
+      <div class="section-heading"><div><p class="eyebrow">TASTE BANGKOK</p><h2>美食备忘</h2></div><p>把想吃的，留在这里</p></div>
+      <div class="food-grid">
+        <article class="food hero-food"><span class="food-no">01</span><div><p>河畔晚餐</p><h3>湄南河落日<br>与高级泰餐</h3><small>建议安排在 ICONSIAM 当天</small><div class="food-maps"><a href="https://maps.apple.com/?q=Thai+Fine+Dining+ICONSIAM+Bangkok" target="_blank" rel="noopener">Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&query=Thai+Fine+Dining+ICONSIAM+Bangkok" target="_blank" rel="noopener">Google Maps</a></div></div></article>
+        <article class="food"><span class="food-no">02</span><h3>朱拉隆功夜市</h3><p>小吃 · 甜品 · 本地夜生活</p><div class="food-maps"><a href="https://maps.apple.com/?q=Chulalongkorn+University+Night+Market" target="_blank" rel="noopener">Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&query=Chulalongkorn+University+Night+Market" target="_blank" rel="noopener">Google Maps</a></div></article>
+        <article class="food"><span class="food-no">03</span><h3>最后一顿泰餐</h3><p>在 Siam 区慢慢选一家喜欢的店</p><div class="food-maps"><a href="https://maps.apple.com/?q=Thai+Restaurant+Siam+Bangkok" target="_blank" rel="noopener">Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&query=Thai+Restaurant+Siam+Bangkok" target="_blank" rel="noopener">Google Maps</a></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="tips">
+      <div class="section-heading"><div><p class="eyebrow">GOOD TO KNOW</p><h2>旅行贴士</h2></div><p>出发前快速检查</p></div>
+      <div class="tips-grid">
+        <article><span>฿</span><h3>现金准备</h3><p>准备小额泰铢用于市场、路边摊与小费；大额消费优先刷卡。</p></article>
+        <article><span>G</span><h3>Grab 使用</h3><p>提前注册并绑定支付方式；上车前核对车牌和司机信息。</p></article>
+        <article><span>↗</span><h3>BTS / MRT</h3><p>避开高峰堵车的好选择。酒店附近优先步行至轨道交通。</p></article>
+        <article><span>☀︎</span><h3>天气</h3><p>十月湿热且可能有阵雨，随身带轻便雨具与透气衣物。</p></article>
+        <article><span>SPF</span><h3>防晒</h3><p>每日补涂高倍防晒，备好帽子、墨镜和饮用水。</p></article>
+        <article><span>♡</span><h3>小费</h3><p>并非强制；满意时可给酒店、按摩与餐厅服务人员小额现金。</p></article>
+      </div>
+    </section>
+  </main>
+  <footer><strong>BANGKOK · 2026</strong><p>为一段值得期待的旅程而作</p><a href="#home">回到顶部 ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
