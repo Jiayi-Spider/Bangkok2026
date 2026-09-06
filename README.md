@@ -2,6 +2,18 @@
 
 一个为 iPhone 17 Pro 优化的纯静态曼谷旅行网页。项目无需后端，可部署到任何静态网站服务。
 
+## 修改每日行程
+
+日常只需编辑 schedule.md 中的 Markdown 表格：
+
+- 每一行代表一个行程项目。
+- 同一天可以添加多行。
+- “天数、日期、主题、时间、行程、地图搜索词”六列不要删除或调换。
+- 保存并上传 schedule.md 后，部署版网页会自动读取新行程。
+- 地图搜索词建议使用地点的英文官方名称，以提高 Apple Maps 和 Google Maps 的搜索准确度。
+- 如果直接双击 index.html，浏览器会使用内置回退行程；通过 GitHub Pages 等网站访问时才会自动读取 schedule.md。
+- bangkok_trip_offline.html 是独立快照。修改 schedule.md 后，需要重新生成它才能同步。
+
 ## 本地预览
 
 直接打开 index.html 可以查看页面内容。PWA 离线缓存需要 HTTPS，因此请在部署后测试“添加到主屏幕”。
@@ -43,6 +55,7 @@
 - index.html：页面结构
 - style.css：视觉与响应式样式
 - script.js：行程状态、导航及 PWA 注册
+- schedule.md：每日行程唯一编辑入口
 - manifest.json：PWA 应用信息
 - service-worker.js：离线缓存
 - assets/：关键页面图片
