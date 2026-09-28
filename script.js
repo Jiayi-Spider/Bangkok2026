@@ -56,6 +56,7 @@ function parseSchedule(markdown) {
 const appleMapLink = query => `https://maps.apple.com/?q=${encodeURIComponent(query)}`;
 const googleMapLink = query => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 const grabLink = query => `https://grab.onelink.me/2695613898?af_dp=grab%3A%2F%2Fopen%3FscreenType%3DBOOKING%26dropOffLocationName%3D${encodeURIComponent(query)}`;
+const nearbyFoodLink = query => `https://maps.apple.com/?q=${encodeURIComponent(`Restaurants near ${query}`)}`;
 
 function renderSchedule(days) {
   const daysEl = document.querySelector('#days');
@@ -75,6 +76,7 @@ function renderSchedule(days) {
               <a class="apple-map" href="${appleMapLink(item[2])}" target="_blank" rel="noopener" aria-label="在 Apple Maps 查看 ${safe(item[1])}">Apple</a>
               <a href="${googleMapLink(item[2])}" target="_blank" rel="noopener" aria-label="在 Google Maps 查看 ${safe(item[1])}">Google</a>
               <a href="${grabLink(item[2])}" target="_blank" rel="noopener" aria-label="使用 Grab 前往 ${safe(item[1])}">Grab</a>
+              <a class="food-nearby" href="${nearbyFoodLink(item[2])}" target="_blank" rel="noopener" aria-label="查看 ${safe(item[1])} 附近美食">附近美食</a>
             </span>
           </li>`).join('')}
       </ul>

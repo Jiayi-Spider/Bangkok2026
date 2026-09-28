@@ -14,3 +14,4 @@ html,body{max-width:100%;overflow-x:hidden}.stat-grid{grid-template-columns:repe
 @media(max-width:390px){.hero h1{font-size:42px}.hero-photo{min-height:620px}.section{padding-left:16px;padding-right:16px}.hotel-info{padding-left:20px;padding-right:20px}.place-links{flex-wrap:wrap}}
 @media(min-width:400px) and (max-width:404px){.hero-photo{height:calc(100svh - 10px);min-height:680px;max-height:864px}.hero-copy{bottom:max(54px,calc(env(safe-area-inset-bottom) + 28px))}.hero h1{font-size:48px}.topbar nav a{min-height:50px}}
 .offline-edition{margin:24px 0 0!important;font:500 11px/1.4 -apple-system,BlinkMacSystemFont,sans-serif!important;letter-spacing:.08em;opacity:.6}
+.place-links .food-nearby{background:var(--accent);color:#fff}

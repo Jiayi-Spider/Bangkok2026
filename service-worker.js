@@ -1,4 +1,4 @@
-const CACHE_NAME = "bkk-2026-v2";
+const CACHE_NAME = "bkk-2026-v3";
 const APP_SHELL = [
   "./", "./index.html", "./style.css", "./script.js", "./schedule.md", "./manifest.json",
   "./icons/icon-192.png", "./icons/icon-512.png",
