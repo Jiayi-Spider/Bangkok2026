@@ -1,6 +1,6 @@
-const CACHE_NAME = "bkk-2026-v17";
+const CACHE_NAME = "bkk-2026-v18";
 const APP_SHELL = [
-  "./", "./index.html", "./style.css?v=17", "./script.js?v=17", "./schedule.md", "./manifest.json",
+  "./", "./index.html", "./style.css?v=18", "./script.js?v=18", "./schedule.md", "./manifest.json",
   "./icons/icon-192.png", "./icons/icon-512.png",
   "./assets/hero.jpg", "./assets/pullman.jpg", "./assets/renaissance.jpg",
   "./assets/vie.jpg", "./assets/food.jpg", "./assets/transition.jpg", "./assets/transition-2.png"

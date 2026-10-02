@@ -210,7 +210,8 @@ const fallbackSchedule = `| 天数 | 日期 | 主题 | 时间 | 行程 | 地图�
 | 1 | 10月03日 · 周六 | 抵达曼谷 | 13:30 | 曼谷王权铂尔曼酒店 Pullman 办理入住 | Pullman Bangkok King Power |
 | 1 | 10月03日 · 周六 | 抵达曼谷 | 15:30 | 胜利纪念碑 Victory Monument | Victory Monument Bangkok |
 | 1 | 10月03日 · 周六 | 抵达曼谷 | 16:30 | 尚泰世界购物中心 CentralWorld | CentralWorld Bangkok |
-| 1 | 10月03日 · 周六 | 抵达曼谷 | 18:00 | 河滨夜市 Asiatique 夜景 | Asiatique The Riverfront |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 17:30 | 晚餐二选一：Nara Thai Cuisine / Rongros | Nara Thai Cuisine CentralWorld Bangkok |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 19:00 | 河滨夜市 Asiatique 夜景 | Asiatique The Riverfront |
 | 1 | 10月03日 · 周六 | 抵达曼谷 | 21:00 | 蓬萨旺天堂水疗美容 Pornsawan Heaven Spa & Beauty 按摩 | Pornsawan Heaven Spa & Beauty Bangkok |
 | 2 | 10月04日 · 周日 | 曼谷文化日 | 上午 | 空邦隆艺术家水上市场 Khlong Bang Luang | Khlong Bang Luang Floating Market |
 | 2 | 10月04日 · 周日 | 曼谷文化日 | 下午 | 大皇宫 | The Grand Palace Bangkok |
@@ -296,6 +297,14 @@ function googleFullRoute(items) {
 const foodRecommendations = [
   { matches: ['Victory Monument'], name: 'Baan Kuay Tiew Ruathong', query: 'Baan Kuay Tiew Ruathong Bangkok', dishes: '船面 · 深色浓汤 · 猪肉/牛肉丸', price: '฿100–250/人' },
   { matches: ['Pullman 办理入住'], name: 'Somtum On Sunday', query: 'Somtum On Sunday Bangkok', dishes: '青木瓜沙拉 · 猪颈肉 · Larb', price: '฿200–400/人' },
+  {
+    matches: ['晚餐二选一：Nara Thai Cuisine / Rongros'],
+    name: 'Nara Thai Cuisine · CentralWorld',
+    query: 'Nara Thai Cuisine CentralWorld Bangkok',
+    dishes: '冬阴功 · 咖喱蟹 · 打抛 · 芒果糯米饭',
+    price: '约฿600–1,000/人',
+    alternative: { name: 'Rongros', query: 'Rongros Bangkok', note: '昭披耶河畔 · 郑王庙夜景 · 建议提前预约露台位' }
+  },
   { matches: ['大皇宫', '卧佛寺 Wat Pho'], name: 'Manee Thai Food', query: 'Manee Thai Food Tha Tien Bangkok', dishes: 'Tom Kha Gai · Pad Thai · 打抛', price: '฿150–300/人' },
   { matches: ['郑王庙 Wat Arun'], name: 'Pad Thai Kratong Thong by ama', query: 'Pad Thai Kratong Thong by ama Bangkok', dishes: '酥脆金杯 Pad Thai', price: '฿150–300/人' },
   {

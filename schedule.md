@@ -9,7 +9,8 @@
 | 1 | 10月03日 · 周六 | 抵达曼谷 | 13:30 | 曼谷王权铂尔曼酒店 Pullman 办理入住 | Pullman Bangkok King Power |
 | 1 | 10月03日 · 周六 | 抵达曼谷 | 15:30 | 胜利纪念碑 Victory Monument | Victory Monument Bangkok |
 | 1 | 10月03日 · 周六 | 抵达曼谷 | 16:30 | 尚泰世界购物中心 CentralWorld | CentralWorld Bangkok |
-| 1 | 10月03日 · 周六 | 抵达曼谷 | 18:00 | 河滨夜市 Asiatique 夜景 | Asiatique The Riverfront |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 17:30 | 晚餐二选一：Nara Thai Cuisine / Rongros | Nara Thai Cuisine CentralWorld Bangkok |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 19:00 | 河滨夜市 Asiatique 夜景 | Asiatique The Riverfront |
 | 1 | 10月03日 · 周六 | 抵达曼谷 | 21:00 | 蓬萨旺天堂水疗美容 Pornsawan Heaven Spa & Beauty 按摩 | Pornsawan Heaven Spa & Beauty Bangkok |
 | 2 | 10月04日 · 周日 | 曼谷文化日 | 上午 | 空邦隆艺术家水上市场 Khlong Bang Luang | Khlong Bang Luang Floating Market |
 | 2 | 10月04日 · 周日 | 曼谷文化日 | 下午 | 大皇宫 | The Grand Palace Bangkok |
