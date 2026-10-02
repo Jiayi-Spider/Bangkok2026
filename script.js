@@ -1,28 +1,28 @@
 const fallbackSchedule = `| 天数 | 日期 | 主题 | 时间 | 行程 | 地图搜索词 |
 |---|---|---|---|---|---|
-| 1 | 10月03日 · 周六 | 抵达曼谷 | 07:30 | PVG → BKK 11:05 | Suvarnabhumi Airport |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 07:30 | 上海浦东 PVG → 曼谷素万那普 BKK 11:05 | Suvarnabhumi Airport |
 | 1 | 10月03日 · 周六 | 抵达曼谷 | 12:00 | 携程舒适型接机 | Suvarnabhumi Airport |
-| 1 | 10月03日 · 周六 | 抵达曼谷 | 13:30 | Pullman 办理入住 | Pullman Bangkok King Power |
-| 1 | 10月03日 · 周六 | 抵达曼谷 | 15:30 | King Power Rangnam | King Power Rangnam |
-| 1 | 10月03日 · 周六 | 抵达曼谷 | 17:00 | Victory Monument | Victory Monument Bangkok |
-| 1 | 10月03日 · 周六 | 抵达曼谷 | 19:00 | Asiatique 夜景 | Asiatique The Riverfront |
-| 2 | 10月04日 · 周日 | 曼谷文化日 | 上午 | Khlong Bang Luang 水上市场 | Khlong Bang Luang Floating Market |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 13:30 | 曼谷王权铂尔曼酒店 Pullman 办理入住 | Pullman Bangkok King Power |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 15:30 | 胜利纪念碑 Victory Monument | Victory Monument Bangkok |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 16:30 | 尚泰世界购物中心 CentralWorld | CentralWorld Bangkok |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 18:00 | 河滨夜市 Asiatique 夜景 | Asiatique The Riverfront |
+| 1 | 10月03日 · 周六 | 抵达曼谷 | 21:00 | 蓬萨旺天堂水疗美容 Pornsawan Heaven Spa & Beauty 按摩 | Pornsawan Heaven Spa & Beauty Bangkok |
+| 2 | 10月04日 · 周日 | 曼谷文化日 | 上午 | 空邦隆艺术家水上市场 Khlong Bang Luang | Khlong Bang Luang Floating Market |
 | 2 | 10月04日 · 周日 | 曼谷文化日 | 下午 | 大皇宫 | The Grand Palace Bangkok |
 | 2 | 10月04日 · 周日 | 曼谷文化日 | 下午 | 卧佛寺 Wat Pho | Wat Pho Bangkok |
 | 2 | 10月04日 · 周日 | 曼谷文化日 | 傍晚 | 郑王庙 Wat Arun | Wat Arun Bangkok |
-| 2 | 10月04日 · 周日 | 曼谷文化日 | 晚上 | 朱拉隆功夜市 | Chulalongkorn University Night Market |
-| 3 | 10月05日 · 周一 | 换酒店与购物 | 上午 | Pullman 退房 | Pullman Bangkok King Power |
-| 3 | 10月05日 · 周一 | 换酒店与购物 | 中午 | Renaissance 入住 | Renaissance Bangkok Ratchaprasong |
-| 3 | 10月05日 · 周一 | 换酒店与购物 | 下午 | CentralWorld | CentralWorld Bangkok |
-| 3 | 10月05日 · 周一 | 换酒店与购物 | 下午 | Siam Paragon | Siam Paragon |
-| 3 | 10月05日 · 周一 | 换酒店与购物 | 傍晚 | Big C | Big C Supercenter Ratchadamri |
+| 2 | 10月04日 · 周日 | 曼谷文化日 | 19:00 | 朱拉隆功夜市 · 松松海鲜 Som Som Seafood 晚餐 | Som Som Seafood Stadium One Bangkok |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 上午 | 曼谷王权铂尔曼酒店 Pullman 退房 | Pullman Bangkok King Power |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 中午 | 曼谷拉差阿帕森万丽酒店 Renaissance 入住 | Renaissance Bangkok Ratchaprasong |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 下午 | 暹罗百丽宫 Siam Paragon | Siam Paragon |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 傍晚 | Big C 超市 | Big C Supercenter Ratchadamri |
 | 3 | 10月05日 · 周一 | 换酒店与购物 | 晚上 | 四面佛 Erawan Shrine | Erawan Shrine |
-| 4 | 10月06日 · 周二 | 城市体验 | 上午 | ICONSIAM | ICONSIAM |
+| 4 | 10月06日 · 周二 | 城市体验 | 上午 | 暹罗天地 ICONSIAM | ICONSIAM |
 | 4 | 10月06日 · 周二 | 城市体验 | 下午 | 湄南河景体验 | Chao Phraya River Bangkok |
 | 4 | 10月06日 · 周二 | 城市体验 | 晚上 | 高级泰餐 | Thai Fine Dining Bangkok |
-| 5 | 10月07日 · 周三 | 放松日 | 上午 | VIE Hotel Suite 体验 | VIE Hotel Bangkok MGallery |
-| 5 | 10月07日 · 周三 | 放松日 | 下午 | MBK | MBK Center |
-| 5 | 10月07日 · 周三 | 放松日 | 下午 | Siam Center | Siam Center |
+| 5 | 10月07日 · 周三 | 放松日 | 上午 | VIE 酒店套房体验 | VIE Hotel Bangkok MGallery |
+| 5 | 10月07日 · 周三 | 放松日 | 下午 | MBK 购物中心 | MBK Center |
+| 5 | 10月07日 · 周三 | 放松日 | 下午 | 暹罗中心 Siam Center | Siam Center |
 | 5 | 10月07日 · 周三 | 放松日 | 晚上 | 最后一顿泰餐 | Thai Restaurant Siam Bangkok |
 | 6 | 10月08日 · 周四 | 返回上海 | 上午 | 酒店早餐 | VIE Hotel Bangkok MGallery |
 | 6 | 10月08日 · 周四 | 返回上海 | 中午 | 前往机场 | Suvarnabhumi Airport |
@@ -56,7 +56,59 @@ function parseSchedule(markdown) {
 const appleMapLink = query => `https://maps.apple.com/?q=${encodeURIComponent(query)}`;
 const googleMapLink = query => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 const grabLink = query => `https://grab.onelink.me/2695613898?af_dp=grab%3A%2F%2Fopen%3FscreenType%3DBOOKING%26dropOffLocationName%3D${encodeURIComponent(query)}`;
-const nearbyFoodLink = query => `https://maps.apple.com/?q=${encodeURIComponent(`Restaurants near ${query}`)}`;
+const nearbyFoodLink = query => `https://maps.apple.com/?q=${encodeURIComponent(query)}`;
+
+function routePlaces(items) {
+  return items.map(item => item[2]).filter((place, index, places) =>
+    place && (index === 0 || place !== places[index - 1])
+  );
+}
+
+function googleRouteEmbed(items) {
+  const places = routePlaces(items);
+  if (places.length <= 1) {
+    return `https://maps.google.com/maps?q=${encodeURIComponent(places[0] || 'Bangkok')}&z=13&output=embed`;
+  }
+  const destinationChain = places.slice(1).map(encodeURIComponent).join('+to:');
+  return `https://maps.google.com/maps?saddr=${encodeURIComponent(places[0])}&daddr=${destinationChain}&output=embed`;
+}
+
+function googleFullRoute(items) {
+  const places = routePlaces(items);
+  if (places.length <= 1) return googleMapLink(places[0] || 'Bangkok');
+  const params = new URLSearchParams({
+    api: '1',
+    origin: places[0],
+    destination: places[places.length - 1],
+    travelmode: 'driving'
+  });
+  if (places.length > 2) params.set('waypoints', places.slice(1, -1).join('|'));
+  return `https://www.google.com/maps/dir/?${params.toString()}`;
+}
+
+const foodRecommendations = [
+  { matches: ['Victory Monument'], name: 'Baan Kuay Tiew Ruathong', query: 'Baan Kuay Tiew Ruathong Bangkok', dishes: '船面 · 深色浓汤 · 猪肉/牛肉丸', price: '฿100–250/人' },
+  { matches: ['Pullman 办理入住'], name: 'Somtum On Sunday', query: 'Somtum On Sunday Bangkok', dishes: '青木瓜沙拉 · 猪颈肉 · Larb', price: '฿200–400/人' },
+  { matches: ['大皇宫', '卧佛寺 Wat Pho'], name: 'Manee Thai Food', query: 'Manee Thai Food Tha Tien Bangkok', dishes: 'Tom Kha Gai · Pad Thai · 打抛', price: '฿150–300/人' },
+  { matches: ['郑王庙 Wat Arun'], name: 'Pad Thai Kratong Thong by ama', query: 'Pad Thai Kratong Thong by ama Bangkok', dishes: '酥脆金杯 Pad Thai', price: '฿150–300/人' },
+  {
+    matches: ['松松海鲜 Som Som Seafood', '朱拉隆功夜市'],
+    name: '松松海鲜 Som Som Seafood',
+    query: 'Som Som Seafood Stadium One Bangkok',
+    dishes: '咖喱炒蟹肉 · 炭烤大头虾 · 粉丝焗河虾 · 冬阴功',
+    price: '约฿500–700/人',
+    alternative: { name: 'Rongros', query: 'Rongros Bangkok', note: '河景泰餐 · 建议预约' }
+  },
+  { matches: ['Renaissance 入住', 'CentralWorld', 'Siam Paragon', 'Big C', '四面佛 Erawan Shrine'], name: 'Nara Thai Cuisine Erawan', query: 'Nara Thai Cuisine Erawan Bangkok', dishes: '传统泰菜 · 咖喱 · 泰式小食', price: '฿600–1,000/人' },
+  { matches: ['高级泰餐'], name: 'Sra Bua by Num Weerawat', query: 'Sra Bua by Num Weerawat Bangkok', dishes: '现代泰餐 · Tom Yum', price: '฿2,000+/人' },
+  { matches: ['VIE Hotel Suite 体验', 'MBK', 'Siam Center', '最后一顿泰餐'], name: 'Porwa Northern Thai Cuisine', query: 'Porwa Northern Thai Cuisine Bangkok', dishes: 'Khao Soi · Sai Ua · Nam Prik Noom', price: '฿200–400/人' }
+];
+
+function getFoodRecommendation(activity, placeQuery) {
+  return foodRecommendations.find(option =>
+    option.matches.some(term => activity.includes(term))
+  ) || { name: '搜索附近特色美食', query: `Restaurants near ${placeQuery}`, dishes: '', price: '' };
+}
 
 function renderSchedule(days) {
   const daysEl = document.querySelector('#days');
@@ -67,8 +119,22 @@ function renderSchedule(days) {
         <span class="day-date">${safe(day.date)}</span>
       </div>
       <h3>${safe(day.title)}</h3>
+      <div class="day-map">
+        <iframe
+          src="${googleRouteEmbed(day.items)}"
+          title="第${safe(day.n)}天 Google Maps 路线缩略图"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="day-map-bar">
+          <span>${routePlaces(day.items).length} 个路线节点</span>
+          <a href="${googleFullRoute(day.items)}" target="_blank" rel="noopener">Google Maps 完整路线 ↗</a>
+        </div>
+      </div>
       <ul class="timeline">
-        ${day.items.map(item => `
+        ${day.items.map(item => {
+          const food = getFoodRecommendation(item[1], item[2]);
+          return `
           <li>
             <time>${safe(item[0])}</time>
             <span>${safe(item[1])}</span>
@@ -76,9 +142,15 @@ function renderSchedule(days) {
               <a class="apple-map" href="${appleMapLink(item[2])}" target="_blank" rel="noopener" aria-label="在 Apple Maps 查看 ${safe(item[1])}">Apple</a>
               <a href="${googleMapLink(item[2])}" target="_blank" rel="noopener" aria-label="在 Google Maps 查看 ${safe(item[1])}">Google</a>
               <a href="${grabLink(item[2])}" target="_blank" rel="noopener" aria-label="使用 Grab 前往 ${safe(item[1])}">Grab</a>
-              <a class="food-nearby" href="${nearbyFoodLink(item[2])}" target="_blank" rel="noopener" aria-label="查看 ${safe(item[1])} 附近美食">附近美食</a>
+              <a class="food-nearby" href="${nearbyFoodLink(food.query)}" target="_blank" rel="noopener" aria-label="查看 ${safe(food.name)}">附近美食</a>
             </span>
-          </li>`).join('')}
+            ${food.dishes ? `
+              <small class="food-pick">
+                <b>首选 · ${safe(food.name)}</b>
+                <span>必点：${safe(food.dishes)} · ${safe(food.price)}</span>
+                ${food.alternative ? `<a class="food-alt" href="${nearbyFoodLink(food.alternative.query)}" target="_blank" rel="noopener">备选 · ${safe(food.alternative.name)} ↗</a><span>${safe(food.alternative.note)}</span>` : ''}
+              </small>` : ''}
+          </li>`}).join('')}
       </ul>
       <label class="complete">
         <input type="checkbox" data-check="${index}">
@@ -123,6 +195,13 @@ async function loadSchedule() {
 
 loadSchedule();
 
+const splash = document.querySelector('.trip-splash');
+if (splash) {
+  splash.addEventListener('animationend', event => {
+    if (event.animationName === 'trip-splash-exit') splash.remove();
+  });
+}
+
 const links = [...document.querySelectorAll('.topbar nav a')];
 const sections = links.map(link => document.querySelector(link.getAttribute('href')));
 sections.forEach(section => new IntersectionObserver(entries => {
@@ -146,5 +225,13 @@ document.querySelector('#shareBtn').addEventListener('click', async () => {
 });
 
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-  window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js'));
+  if (['127.0.0.1', 'localhost'].includes(location.hostname)) {
+    navigator.serviceWorker.getRegistrations().then(registrations =>
+      registrations.forEach(registration => registration.unregister())
+    );
+  } else {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./service-worker.js', { updateViaCache: 'none' });
+    });
+  }
 }

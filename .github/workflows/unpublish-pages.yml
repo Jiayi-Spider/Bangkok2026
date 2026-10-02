@@ -1,0 +1,32 @@
+name: Unpublish Bangkok Trip Site
+
+on:
+  schedule:
+    # 2026-10-09 00:30 Asia/Shanghai = 2026-10-08 16:30 UTC
+    - cron: "30 16 8 10 *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+jobs:
+  unpublish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm the one-time shutdown date
+        id: date_check
+        shell: bash
+        run: |
+          if [[ "$(date -u +%Y-%m-%d)" == "2026-10-08" || "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Disable GitHub Pages
+        if: steps.date_check.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: gh api --method DELETE "repos/${GITHUB_REPOSITORY}/pages"
