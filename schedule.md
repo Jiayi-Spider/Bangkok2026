@@ -17,10 +17,12 @@
 | 2 | 10月04日 · 周日 | 曼谷文化日 | 傍晚 | 郑王庙 Wat Arun | Wat Arun Bangkok |
 | 2 | 10月04日 · 周日 | 曼谷文化日 | 19:00 | 朱拉隆功夜市 · 松松海鲜 Som Som Seafood 晚餐 | Som Som Seafood Stadium One Bangkok |
 | 3 | 10月05日 · 周一 | 换酒店与购物 | 上午 | 曼谷王权铂尔曼酒店 Pullman 退房 | Pullman Bangkok King Power |
-| 3 | 10月05日 · 周一 | 换酒店与购物 | 中午 | 曼谷拉差阿帕森万丽酒店 Renaissance 入住 | Renaissance Bangkok Ratchaprasong |
-| 3 | 10月05日 · 周一 | 换酒店与购物 | 下午 | 暹罗百丽宫 Siam Paragon | Siam Paragon |
-| 3 | 10月05日 · 周一 | 换酒店与购物 | 傍晚 | Big C 超市 | Big C Supercenter Ratchadamri |
-| 3 | 10月05日 · 周一 | 换酒店与购物 | 晚上 | 四面佛 Erawan Shrine | Erawan Shrine |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 12:00 | 曼谷拉差阿帕森万丽酒店 Renaissance 入住 | Renaissance Bangkok Ratchaprasong |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 13:00 | Inter Restaurant since 1981 老字号泰餐午餐 | Inter Restaurant Siam Square 9 Bangkok |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 15:00 | 暹罗百丽宫 Siam Paragon | Siam Paragon |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 17:30 | Big C 超市 | Big C Supercenter Ratchadamri |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 18:30 | 四面佛 Erawan Shrine | Erawan Shrine |
+| 3 | 10月05日 · 周一 | 换酒店与购物 | 19:00 | 爱侣湾茶室 Erawan Tea Room 晚餐 | Erawan Tea Room Grand Hyatt Erawan Bangkok |
 | 4 | 10月06日 · 周二 | 城市体验 | 上午 | 暹罗天地 ICONSIAM | ICONSIAM |
 | 4 | 10月06日 · 周二 | 城市体验 | 下午 | 湄南河景体验 | Chao Phraya River Bangkok |
 | 4 | 10月06日 · 周二 | 城市体验 | 晚上 | 高级泰餐 | Thai Fine Dining Bangkok |
