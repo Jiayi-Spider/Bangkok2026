@@ -1,9 +1,9 @@
-const CACHE_NAME = "bkk-2026-v15";
+const CACHE_NAME = "bkk-2026-v16";
 const APP_SHELL = [
-  "./", "./index.html", "./style.css?v=15", "./script.js?v=15", "./schedule.md", "./manifest.json",
+  "./", "./index.html", "./style.css?v=16", "./script.js?v=16", "./schedule.md", "./manifest.json",
   "./icons/icon-192.png", "./icons/icon-512.png",
   "./assets/hero.jpg", "./assets/pullman.jpg", "./assets/renaissance.jpg",
-  "./assets/vie.jpg", "./assets/food.jpg", "./assets/transition.jpg"
+  "./assets/vie.jpg", "./assets/food.jpg", "./assets/transition.jpg", "./assets/transition-2.png"
 ];
 
 self.addEventListener("install", event => {

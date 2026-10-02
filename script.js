@@ -197,6 +197,11 @@ loadSchedule();
 
 const splash = document.querySelector('.trip-splash');
 if (splash) {
+  const randomValue = globalThis.crypto?.getRandomValues
+    ? crypto.getRandomValues(new Uint32Array(1))[0] / 4294967296
+    : Math.random();
+  splash.classList.toggle('variant-two', randomValue < 0.5);
+  splash.classList.add('is-ready');
   splash.addEventListener('animationend', event => {
     if (event.animationName === 'trip-splash-exit') splash.remove();
   });
